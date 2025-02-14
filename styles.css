@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+#line {
+    width: 200px;
+    height: 2px;
+    background-color: #000; /* Black line */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+}
